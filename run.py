@@ -388,7 +388,7 @@ def main(argv):
          print('run.py -s <stacks> -d <dataset>( H5PY format only NHWC) -S (to train SAE) -A (to train AE) -n (to include noise in batch)')
          sys.exit()
       elif opt in ("-s", "--stacks"):
-          p_size = arg
+          stacks = arg
       elif opt in ("-d", "--dataset"):
           dataset = arg
       elif opt == '-S':

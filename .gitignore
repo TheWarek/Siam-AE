@@ -105,3 +105,4 @@ venv.bak/
 
 # python proejct files
 .idea/
+results/
